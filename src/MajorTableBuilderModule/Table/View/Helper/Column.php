@@ -7,10 +7,10 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table\View\Helper;
+namespace MajorTableBuilderModule\Table\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
-use Major\TableBuilder\Table\ColumnInterface;
+use MajorTableBuilderModule\Table\ColumnInterface;
 
 /**
  * Column View Helper
@@ -32,15 +32,15 @@ class Column extends AbstractHelper
     /**
      * Holds the column
      *
-     * @var \Major\TableBuilder\Table\ColumnInterface
+     * @var \MajorTableBuilderModule\Table\ColumnInterface
      */
     private $column;
 
     /**
      * Invoke the view helper
      *
-     * @param \Major\TableBuilder\Table\ColumnInterface $column
-     * @return \Major\TableBuilder\Table\View\Helper\Column
+     * @param \MajorTableBuilderModule\Table\ColumnInterface $column
+     * @return \MajorTableBuilderModule\Table\View\Helper\Column
      */
     public function __invoke(ColumnInterface $column)
     {

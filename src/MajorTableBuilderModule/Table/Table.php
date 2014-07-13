@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 use Zend\ServiceManager\ServiceLocatorInterface;
 
@@ -74,7 +74,7 @@ class Table extends Element implements TableInterface
      * Set columns
      *
      * @param array $columns
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setColumns(array $columns)
     {
@@ -87,7 +87,7 @@ class Table extends Element implements TableInterface
      * Add a column to the table
      *
      * @param Column|array $column
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      * @throws \Exception
      */
     public function addColumn($name, $column)
@@ -112,7 +112,7 @@ class Table extends Element implements TableInterface
      * Remove a column
      *
      * @param string $name
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function removeColumn($name)
     {
@@ -137,7 +137,7 @@ class Table extends Element implements TableInterface
      * Set data
      *
      * @param array $data
-     * @return \Major\TableBuilder\Table\Table
+     * @return \MajorTableBuilderModule\Table\Table
      */
     public function setData(array $data)
     {

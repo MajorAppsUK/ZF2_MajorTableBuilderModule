@@ -7,10 +7,10 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table\View\Helper;
+namespace MajorTableBuilderModule\Table\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
-use Major\TableBuilder\Table\ElementInterface;
+use MajorTableBuilderModule\Table\ElementInterface;
 
 /**
  * Element View Helper
@@ -37,15 +37,15 @@ class Element extends AbstractHelper
     /**
      * Holds the element
      *
-     * @var \Major\TableBuilder\Table\ElementInterface
+     * @var \MajorTableBuilderModule\Table\ElementInterface
      */
     private $element;
 
     /**
      * Invoke the view helper
      *
-     * @param \Major\TableBuilder\Table\ElementInterface $element
-     * @return \Major\TableBuilder\Table\View\Helper\Element
+     * @param \MajorTableBuilderModule\Table\ElementInterface $element
+     * @return \MajorTableBuilderModule\Table\View\Helper\Element
      */
     public function __invoke(ElementInterface $element)
     {

@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 /**
  * TableInterface
@@ -35,7 +35,7 @@ interface TableInterface
      * Set columns
      *
      * @param array $columns
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setColumns(array $columns);
 
@@ -43,7 +43,7 @@ interface TableInterface
      * Add a column to the table
      *
      * @param Column|array $column
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      * @throws \Exception
      */
     public function addColumn($name, $column);
@@ -52,7 +52,7 @@ interface TableInterface
      * Remove a column
      *
      * @param string $name
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function removeColumn($name);
 
@@ -67,7 +67,7 @@ interface TableInterface
      * Set data
      *
      * @param array $data
-     * @return \Major\TableBuilder\Table\Table
+     * @return \MajorTableBuilderModule\Table\Table
      */
     public function setData(array $data);
 

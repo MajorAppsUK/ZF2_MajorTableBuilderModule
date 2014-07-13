@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 /**
  * ColumnInterface
@@ -27,7 +27,7 @@ interface ColumnInterface
      * Set header
      *
      * @param string $header
-     * @return \Major\TableBuilder\Table\Column
+     * @return \MajorTableBuilderModule\Table\Column
      */
     public function setHeader($header);
 
@@ -56,7 +56,7 @@ interface ColumnInterface
      * Set formatter options
      *
      * @param array $formatterOptions
-     * @return \Major\TableBuilder\Table\Column
+     * @return \MajorTableBuilderModule\Table\Column
      */
     public function setFormatterOptions(array $formatterOptions);
 

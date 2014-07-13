@@ -7,10 +7,10 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table\View\Helper;
+namespace MajorTableBuilderModule\Table\View\Helper;
 
 use Zend\View\Helper\AbstractHelper;
-use Major\TableBuilder\Table\TableInterface;
+use MajorTableBuilderModule\Table\TableInterface;
 
 /**
  * Table View Helper
@@ -32,7 +32,7 @@ class Table extends AbstractHelper
     /**
      * Invoke the view helper
      *
-     * @param \Major\TableBuilder\Table\TableInterface $table
+     * @param \MajorTableBuilderModule\Table\TableInterface $table
      * @return string
      */
     public function __invoke(TableInterface $table)
@@ -50,7 +50,7 @@ class Table extends AbstractHelper
     /**
      * Render the header columns
      *
-     * @param \Major\TableBuilder\Table\TableInterface $table
+     * @param \MajorTableBuilderModule\Table\TableInterface $table
      */
     private function renderHeaderColumns($table)
     {
@@ -66,7 +66,7 @@ class Table extends AbstractHelper
     /**
      * Render rows
      *
-     * @param \Major\TableBuilder\Table\TableInterface $table
+     * @param \MajorTableBuilderModule\Table\TableInterface $table
      * @return string
      */
     private function renderRows($table)
