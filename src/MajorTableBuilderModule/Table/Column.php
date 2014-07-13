@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 /**
  * Column
@@ -68,7 +68,7 @@ class Column extends Element implements ColumnInterface
      * Set header
      *
      * @param string $header
-     * @return \Major\TableBuilder\Table\Column
+     * @return \MajorTableBuilderModule\Table\Column
      */
     public function setHeader($header)
     {
@@ -113,7 +113,7 @@ class Column extends Element implements ColumnInterface
      * Set formatter options
      *
      * @param array $formatterOptions
-     * @return \Major\TableBuilder\Table\Column
+     * @return \MajorTableBuilderModule\Table\Column
      */
     public function setFormatterOptions(array $formatterOptions)
     {

@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 /**
  * ElementInterface
@@ -27,7 +27,7 @@ interface ElementInterface
      * Set tag name
      *
      * @param string $tagName
-     * @return \Major\TableBuilder\Table\Element
+     * @return \MajorTableBuilderModule\Table\Element
      */
     public function setTagName($tagName);
 
@@ -42,7 +42,7 @@ interface ElementInterface
      * Set all attributes
      *
      * @param array $attributes
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setAttributes(array $attributes);
 
@@ -51,7 +51,7 @@ interface ElementInterface
      *
      * @param string $attribute
      * @param mixed $value
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setAttribute($attribute, $value);
 }

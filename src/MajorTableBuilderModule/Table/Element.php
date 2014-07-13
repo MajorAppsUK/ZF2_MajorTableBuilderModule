@@ -7,7 +7,7 @@
  * @license   https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/blob/master/LICENSE GNU V3
  */
 
-namespace Major\TableBuilder\Table;
+namespace MajorTableBuilderModule\Table;
 
 use Zend\ServiceManager\ServiceLocatorAwareInterface;
 use Zend\ServiceManager\ServiceLocatorAwareTrait;
@@ -49,7 +49,7 @@ class Element implements ElementInterface, ServiceLocatorAwareInterface
      * Set tag name
      *
      * @param string $tagName
-     * @return \Major\TableBuilder\Table\Element
+     * @return \MajorTableBuilderModule\Table\Element
      */
     public function setTagName($tagName)
     {
@@ -72,7 +72,7 @@ class Element implements ElementInterface, ServiceLocatorAwareInterface
      * Set all attributes
      *
      * @param array $attributes
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setAttributes(array $attributes)
     {
@@ -86,7 +86,7 @@ class Element implements ElementInterface, ServiceLocatorAwareInterface
      *
      * @param string $attribute
      * @param mixed $value
-     * @return \Major\TableBuilder\Table\TableBuilder
+     * @return \MajorTableBuilderModule\Table\TableBuilder
      */
     public function setAttribute($attribute, $value)
     {
