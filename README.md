@@ -1,4 +1,6 @@
-ZF2_TableBuilder
+MajorApps - ZF2 Table Builder Helper
 ================
 
-Zend Framework 2 - Table Builder
+This module enables "FormBuilder" styled tables within ZendFramework 2.
+
+

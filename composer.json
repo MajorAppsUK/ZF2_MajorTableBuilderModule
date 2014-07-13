@@ -1,0 +1,29 @@
+{
+    "name":        "major/table-builder-module",
+    "description": "MajorApps Table Builder Module",
+    "type":        "library",
+    "license":     "GNU V3",
+    "homepage":    "https://github.com/MajorAppsUK/ZF2_MajorTableBuilderModule/",
+    "keywords":    [
+        "module",
+        "zf2",
+        "table builder"
+    ],
+    "authors":     [
+        {
+            "name": "Rob Caiger",
+            "email": "rob@clocal.co.uk",
+            "homepage": "http://www.clocal.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "~2.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Major\\TableBuilder\\": "src/"
+        }
+    }
+}
